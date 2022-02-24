@@ -1,2 +1,6 @@
 echo "Echo from build.sh"
-docker build -t testimg .
+# docker build -t testimg .
+mvn
+ant
+npm
+java
