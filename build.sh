@@ -1,6 +1,4 @@
 echo "Echo from build.sh"
 # docker build -t testimg .
-mvn
-ant
-npm
-java
+mvn compile
+mvn package
